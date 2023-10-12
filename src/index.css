@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.box1{
+  background-color: #E5F3FD;
+  min-height: 70vh;
+}
+
+.box2{
+  text-align: left;
+}
+
+.mycol{
+  margin-right: 6%;
+}
+
+#box3{
+  /* background-color: red; */
+  width: 85%;
+}
+
