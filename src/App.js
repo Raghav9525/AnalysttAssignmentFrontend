@@ -1,6 +1,6 @@
 import './App.css';
 import User from './Components/User';
-import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { useState } from 'react';
 import Userdetails from './Components/Userdetails';
 
@@ -28,9 +28,8 @@ function App() {
 
   return (
     <div className="App">
-      <RouterProvider router={DashboardRouter}>
-        <Route />
-      </RouterProvider>
+      <RouterProvider router={DashboardRouter}  />
+
     </div>
   );
 }

@@ -17,7 +17,9 @@ function Userdetails(props) {
     
     async function showUser() {
       try {
-        const response = await axios.get("http://localhost:5000");
+         const response = await axios.get("https://anallytsttassignment.onrender.com/");
+
+        // const response = await axios.get("http://localhost:5000");
         if (!response.data || response.data.length === 0) {
           console.log("API request failed");
           return;
